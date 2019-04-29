@@ -153,14 +153,15 @@ button {
 } */
 
 .mid-content {
-	display: inline-block;
+	/* display: inline-block; */
+	display: flex;
+	flex-wrap: wrap;
 	margin: 0 auto;
 	width: 100%;
 }
 
 .mid-content img {
 	padding: 0 40px;
-
 }
 
 .bottom-content {
@@ -168,14 +169,21 @@ button {
 }
 
 .features, .about{
-	display: inline-block;
+	/* display: inline-block; */
+	justify-content: space-evenly;
 	margin: 10px auto;
-	padding: 20px 40px;
+	padding: 20px;
 	width: 49%;
+}
+
+.features {
+	padding-left: 35px;
+	padding-right: 0px;
 }
 
 .about {
 	padding-right: 60px;
+	padding-left: 0px;
 }
 
 .services, .product, .vision {
