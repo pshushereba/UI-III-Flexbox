@@ -165,7 +165,7 @@ button {
 }
 
 .bottom-content {
-	display: inline-block;
+	display: flex;
 }
 
 .features, .about{
@@ -187,7 +187,7 @@ button {
 }
 
 .services, .product, .vision {
-	display: inline-block;
+	justify-content: center;
 	margin: 10px auto;
 	padding: 15px;
 	padding-bottom: 25px;
