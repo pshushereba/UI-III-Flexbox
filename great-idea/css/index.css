@@ -170,7 +170,15 @@ button {
 }
 
 footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
 	margin-top: 10px
+}
+
+address {
+	margin-left: 20px;
+	padding-left: 20px;
 }
 
 .copyright {
