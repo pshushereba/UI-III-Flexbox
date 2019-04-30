@@ -71,13 +71,6 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 }
 
-/* .logo { */
-	/* display: inline-block; */
-	/* margin-top: 15px; */
-	/* margin-left: auto; */
-	/* padding-left: 90px;
-} */
-
 .style-nav {
 	display: flex;
 	justify-content: space-around;
@@ -85,8 +78,6 @@ h1, h2, h3, h4, h5 {
 }
 
 .style-nav a {
-	/* display: inline-block; */
-	/* padding: 0 25px; */
 	padding-top: 10px;
 	text-decoration: none;
 	color: #B8B8B8;
@@ -107,53 +98,24 @@ button {
 	height: 25px;
 	font-size: 14px;
 	margin: 20px auto;
-	/* margin-bottom: 40px; */
 	border: 1px solid black;
 	background: none;
 }
 
 .top-content {
-	/* display: inline-block; */
 	display: flex;
 	padding: 40px;
 	width: 100%;
-	/* border: 2px solid blue; */
 }
 
 .welcome {
-	/* display: inline-block; */
-	/* margin-top: 100px;
-	margin-left: 15px; */
 	align-items: flex-start;
 	margin-top: 60px;
 	width: 50%;
 	text-align: center;
 }
 
-/* .top-content-image {
-	display: inline-block; */
-	/* float: right;
-	position: relative;
-}
-
-/* .part-1 {
-	display: block;
-	width: 100%;
-
-}
-
- .part-2 {
-	display: inline-block;
-	width: 100%;
-}
-
- .part-3 {
-	display: block;
-	width: 100%;
-} */
-
 .mid-content {
-	/* display: inline-block; */
 	display: flex;
 	flex-wrap: wrap;
 	margin: 0 auto;
@@ -166,10 +128,10 @@ button {
 
 .bottom-content {
 	display: flex;
+	justify-content: center;
 }
 
 .features, .about{
-	/* display: inline-block; */
 	justify-content: space-evenly;
 	margin: 10px auto;
 	padding: 20px;
@@ -187,7 +149,6 @@ button {
 }
 
 .services, .product, .vision {
-	justify-content: center;
 	margin: 10px auto;
 	padding: 15px;
 	padding-bottom: 25px;
