@@ -184,3 +184,81 @@ address {
 .copyright {
 	text-align: center;
 }
+
+/* services.html Selectors */
+
+.services-container {
+	width: 1000px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.services-header nav {
+	display: flex;
+	justify-content: space-around;
+}
+
+.services-header nav a {
+	padding-top: 20px;
+	text-decoration: none;
+	color: #B8B8B8;
+}
+
+.services-top-content img {
+	padding-top: 20px;
+}
+
+.services-top-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-bottom: 20px;
+}
+
+.services-top-content h1 {
+	font-size: 25px;
+	padding-top: 20px;
+}
+
+
+.services-mid-content {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.services-mid-content button {
+	border-radius: 5px;
+	width: 150px;
+	height: 35px;
+	font-size: 12px;
+	margin: 20px auto;
+	border: 1px solid black;
+	background: white;
+}
+
+.design, .ux, .marketing, .webdev, .ios, .android {
+	background: #e3e3e3;
+	border: 2px solid black;
+	padding: 30px;
+	margin: 20px auto;
+	width: 450px;
+}
+
+.services-bottom-content {
+	display: flex;
+}
+
+.services-bottom-content img {
+	margin-right: 25px;
+}
+
+.facts {
+	padding: 20px;
+	padding-right: 40px;
+}
+
+.facts ul li {
+	list-style-type: square;
+}
