@@ -88,9 +88,11 @@ span {
 	font-family: 'Bangers', cursive;
 }
 
-hr {
+/* hr {
 	size: 2px;
-}
+} */
+
+hr {   border: 0;   clear:both;   display:block;   width: 96%;   background-color:#FFFF00;   height: 1px; }
 
 button {
 	display: block;
@@ -192,11 +194,13 @@ address {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	margin: 0 auto;
 }
 
 .services-header nav {
 	display: flex;
 	justify-content: space-around;
+	padding-top: 20px;
 }
 
 .services-header nav a {
@@ -205,15 +209,17 @@ address {
 	color: #B8B8B8;
 }
 
-.services-top-content img {
-	padding-top: 20px;
+.services-header nav a:last-child {
+	padding-top: 10px;
 }
 
 .services-top-content {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
+	margin: 30px;
+	border-bottom: 1px solid black;
 }
 
 .services-top-content h1 {
@@ -224,8 +230,11 @@ address {
 
 .services-mid-content {
 	display: flex;
-	justify-content: center;
+	/* justify-content: center; */
 	flex-wrap: wrap;
+	margin: 0 auto;
+	border-bottom: 2px solid black;
+	padding-bottom: 10px;
 }
 
 .services-mid-content button {
@@ -233,32 +242,59 @@ address {
 	width: 150px;
 	height: 35px;
 	font-size: 12px;
-	margin: 20px auto;
+	margin: 30px 0 20px 0;
 	border: 1px solid black;
 	background: white;
 }
 
 .design, .ux, .marketing, .webdev, .ios, .android {
+	/* display: flex;
+	flex-direction: column; */
 	background: #e3e3e3;
 	border: 2px solid black;
-	padding: 30px;
-	margin: 20px auto;
-	width: 450px;
+	padding: 30px 0 0 0;
+	margin: 20px;
+	width: 42%;
+}
+
+.design, .ux, .marketing, .webdev, .ios, .android p {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.android button {
+	margin-left: 15px;
+}
+
+.android h2 {
+	padding-left: 15px;
 }
 
 .services-bottom-content {
 	display: flex;
+	padding-top: 25px;
 }
 
 .services-bottom-content img {
-	margin-right: 25px;
+	margin-right: 50px;
+	padding-right: 50px;
 }
 
 .facts {
 	padding: 20px;
-	padding-right: 40px;
+	padding-right: 10px;
+}
+
+.facts p {
+	padding-right: 15px;
+	margin-right: 20px;
 }
 
 .facts ul li {
 	list-style-type: square;
+	margin-left: 20px;
+}
+
+.services-copyright {
+	text-align: center;
 }
